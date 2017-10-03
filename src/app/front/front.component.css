@@ -1,0 +1,22 @@
+/*
+Scheme1
+GREY        #7C786A
+lightblue   #8DCDC1
+lightgreen  #D3E397
+tan         #FFF5C3
+iron mud    #EB6E44
+*/
+
+.maindiv {
+  text-align: center;
+}
+
+.super-row {
+  padding-left: 10%;
+  padding-right: 10%;
+  background-color: #8DCDC1;
+}
+
+.row-1, .row-2 {
+  background-color: #FFF5C3;
+}

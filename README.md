@@ -1,28 +1,64 @@
-# InnerSpace
+# _InnerSpace_
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.1.2.
+#### By _**Dominic Brown**_
 
-## Development server
+## Description
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Description
 
-## Code scaffolding
+## Prerequisites
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|module`.
+* [Git](https://git-scm.com/)
+* [Node.js](https://nodejs.org/) (with NPM)
+* [Bower](https://bower.io/)
+* (for sass) Ruby and the sass gem `$ gem install sass`
 
-## Build
+## Installation
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+* (using OSX terminal, or Gitbash on Windows)
+* `git clone`
+* `cd hack-anon`
+* `npm install`
+* `bower install`
 
-## Running unit tests
+## Firebase setup
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+* Create a new database of your own using your firebase console [https://console.firebase.google.com](https://console.firebase.google.com)
+* name the database 'hack-anon' just like the project
+* Create a api-keys file here: (app-root-folder)/src/app/api-keys.ts
+* fill the file with your database credentials by copying and pasting the info from the console / Overview / 'Add Firebase to your web app' button
+* here's an example, be sure to use the var name 'masterFirebaseConfig'
+```typescript
+export var masterFirebaseConfig = {
+  apiKey: "fFESDFioDS&FYsdf&EFS7834kdfjDH",
+  authDomain: "inner-space.firebaseapp.com",
+  databaseURL: "https://hack-anon.firebaseio.com",
+  projectId: "hack-anon",
+  storageBucket: "hack-anon.appspot.com",
+  messagingSenderId: "483748704371"
+};
+```
 
-## Running end-to-end tests
+### Build & Run
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
+* a browser window should open showing the app, otherwise...
+* Point your browser to [http://localhost:4200](http://localhost:4200).
 
-## Further help
+## Known Bugs
+_N/A_
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## Technologies Used
+ * Angular2
+ * Firebase
+ * Typescript
+ * JavaScript
+ * ES6
+ * Node
+ * Bower
+ * CSS
+ * Bootstrap
+ * HTML
+
+ ### License
+ *This software is licensed under the MIT license*
+ Copyright © 2017 **Dominic Brown**
