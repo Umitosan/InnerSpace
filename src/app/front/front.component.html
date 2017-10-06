@@ -33,4 +33,15 @@
 
   </div>
 
+  <h3>List of Techniques</h3>
+  <div class="row row-3">
+    <div *ngFor="let tech of techniques; let i = index">
+      <div class="col">
+        <p>item {{i}}</p>
+        <p>{{tech.name}}</p>
+      </div>
+      <hr>
+    </div>
+  </div>
+
 </div>

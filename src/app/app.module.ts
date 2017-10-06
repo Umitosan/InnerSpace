@@ -41,7 +41,7 @@ export const firebaseConfig = {
     AngularFireModule.initializeApp(firebaseConfig),
     AngularFireDatabaseModule
   ],
-  providers: [ TechniqueService ],
+  providers: [],
   bootstrap: [ AppComponent ]
 })
 export class AppModule { }
