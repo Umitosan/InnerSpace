@@ -1,43 +1,16 @@
-<h3 style="text-align: center;">Techniques</h3>
 
-<div class="maindiv">
-  <div class="row super-row">
+<div class="main-div">
 
-    <div class="row row-1">
-      <p>row-1</p>
-      <div class="col-sm-3">
-        col-1
-      </div>
-      <div class="col-sm-6">
-        col-2
-      </div>
-      <div class="col-sm-3">
-        col-3
-      </div>
-    </div>
+  <h3 class="main-title" style="text-align: center;">Techniques</h3>
 
-    <hr>
-
-    <div class="row row-2">
-      <p>row-2</p>
-      <div class="col-sm-3">
-        col-1
-      </div>
-      <div class="col-sm-6">
-        col-2
-      </div>
-      <div class="col-sm-3">
-        col-3
-      </div>
-    </div>
-
-  </div>
-
-  <h3>List of Techniques</h3>
   <div class="row row-3">
     <div *ngFor="let tech of techniques; let i = index">
       <div class="col">
-        <p>item {{i}}</p>
+        <p>Index {{i}}</p>
+        <div class="thumb-parent">
+          <img class="technique-thumb" src="{{tech.imageUrl}}" alt="image for {{tech.name}}">
+        </div>
+        <br>
         <p>{{tech.name}}</p>
       </div>
       <hr>

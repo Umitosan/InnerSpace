@@ -1,24 +1,24 @@
 {
   "technique" : {
     "0" : {
-      "name" : "The Wim Hof Method",
-      "link" : "https://www.wimhofmethod.com/practice-the-method",
-      "imageUrl" : "http://static.highexistence.com/wp-content/uploads/2013/03/wim-hof-method.jpg"
+      "name" : "The first experience: 5 minutes",
+      "link" : "",
+      "imageUrl" : "https://www.mindful.org/wp-content/uploads/2015/06/sitting-twitter.jpg"
     },
     "1" : {
-      "name" : "Boiling Point",
+      "name" : "Monkey Mind: letting thoughts pass",
       "link" : "",
-      "imageUrl" : "https://image.healthyway.com/image/upload/c_crop,g_north_west,h_617,w_1078,x_135,y_105/c_fill,f_jpg,g_face:center,q_auto:best,w_1056/v1453211956/gjldjhtxbgdajz4stss0.jpg"
+      "imageUrl" : "https://jeanraffa.files.wordpress.com/2016/08/monkey-mind-2.jpg"
     },
     "2" : {
       "name" : "The body scan",
       "link" : "https://www.wimhofmethod.com/practice-the-method",
-      "imageUrl" : "http://static.highexistence.com/wp-content/uploads/2013/03/wim-hof-method.jpg"
+      "imageUrl" : "http://ak5.picdn.net/shutterstock/videos/5945615/thumb/6.jpg"
     },
     "3" : {
-      "name" : "The Wim Hof Method",
-      "link" : "https://www.wimhofmethod.com/practice-the-method",
-      "imageUrl" : "http://static.highexistence.com/wp-content/uploads/2013/03/wim-hof-method.jpg"
+      "name" : "Meditation 3",
+      "link" : "",
+      "imageUrl" : "https://www.howtobeast.com/wp-content/uploads/2016/05/how-to-build-confidence-through-meditation.jpg"
     },
     "4" : {
       "name" : "The Wim Hof Method",
@@ -26,9 +26,9 @@
       "imageUrl" : "http://static.highexistence.com/wp-content/uploads/2013/03/wim-hof-method.jpg"
     },
     "5" : {
-      "name" : "The Wim Hof Method",
-      "link" : "https://www.wimhofmethod.com/practice-the-method",
-      "imageUrl" : "http://static.highexistence.com/wp-content/uploads/2013/03/wim-hof-method.jpg"
+      "name" : "Boiling Point",
+      "link" : "",
+      "imageUrl" : "http://assets1.bigthink.com/system/idea_thumbnails/52385/size_1024/angery.jpg?1377275916"
     }
   },
   "posts" : {
